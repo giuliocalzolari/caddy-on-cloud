@@ -2,7 +2,7 @@
 
 Simple example on how to boot [Caddy](https://caddyserver.com/) on AWS and Azure.
 
-These examples are perfect for demostraing purpose for a cloud deployment of a web server using HTTPS
+These examples are perfect for demonstration purpose for a cloud deployment of a web server using HTTPS
 
 - [Azure + Selfsigned](azure_selfsigned.sh)
 - Azure + Let's Encrypt + Azure DNS - TODO
