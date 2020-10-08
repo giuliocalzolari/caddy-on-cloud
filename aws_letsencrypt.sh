@@ -2,8 +2,8 @@
 sudo su
 apt-get update
 apt install libnss3-tools jq -y
-wget https://github.com/caddyserver/caddy/releases/download/v2.0.0/caddy_2.0.0_linux_amd64.tar.gz
-tar xvzf caddy_2.0.0_linux_amd64.tar.gz
+wget https://github.com/caddyserver/caddy/releases/download/v2.2.0/caddy_2.2.0_linux_amd64.tar.gz
+tar -xvzf caddy_*_linux_amd64.tar.gz
 mv caddy /bin/
 
 wget https://github.com/go-acme/lego/releases/download/v3.7.0/lego_v3.7.0_linux_amd64.tar.gz
